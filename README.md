@@ -1,7 +1,7 @@
 # 💫 Welcome to My Digital Portfolio
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Emad+Nazzal;Full-Stack+Developer+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&multiline=true&width=600&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Emad+Nazzal;Software+Engineer+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
 
 <div align="center">
