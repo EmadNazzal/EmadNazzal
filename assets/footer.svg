@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120" role="img" aria-label="Let's build something dependable">
+<style>
+  .sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif} .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace}
+  .rise{opacity:0;transform:translateY(10px);animation:rise .9s cubic-bezier(0.23,1,0.32,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+.wave{stroke-dasharray:900;animation:draw 5s cubic-bezier(0.23,1,0.32,1) infinite alternate}
+  .wave2{animation:drift 6s ease-in-out infinite alternate}
+  @keyframes draw{from{stroke-dashoffset:900}to{stroke-dashoffset:0}}
+  @keyframes drift{to{transform:translate(-40px,10px)}}</style>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="rgba(211,218,230,0.12)" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#c6ff34" stop-opacity=".10"/><stop offset="1" stop-color="#c6ff34" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#07080b" stop-opacity="0"/><stop offset="1" stop-color="#07080b" stop-opacity=".9"/></linearGradient>
+  <clipPath id="round"><rect width="880" height="120" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="880" height="120" fill="#07080b"/>
+  <rect width="880" height="120" fill="url(#grid)" opacity=".55"/>
+  <rect width="880" height="120" fill="url(#glow)"/>
+  
+  <polyline class="wave" points="0,60 20,65.23511514873843 40,69.8939168491158 60,73.46353575692635 80,75.551006421813 100,75.92652732402824 120,74.54875882921091 140,71.56937410781319 160,67.316362026173 180,62.25792012895788 200,56.950912593992236 220,51.97956722258648 240,47.891160075073145 260,45.13576797966781 280,44.01672132643315 300,44.65721160538978 320,46.98672973491872 340,50.748828132091056 360,55.529352028817186 380,60.80203215811476 400,65.98641968913952 420,70.51178557950062 440,73.8799499139009 460,75.72012459178197 480,75.8297319459741 500,74.19670572951512 520,71.00081944180899 540,66.5938957638681 560,61.461075768875986 580,56.167411629914945 600,51.29566222577009 620,47.382139484428414 640,44.85766789059027 660,44.00015669518874 680,44.90400596775224 700,47.46971446021456 720,51.41483331199304 740,56.30505974558131 760,61.602047768745166 780,66.72267258922625 800,71.1032245532329 820,74.26146574691329 840,75.84971769111793 860,75.69313591178565 880,73.8089578874883" fill="none" stroke="#c6ff34" stroke-width="1.5" stroke-opacity=".7"/>
+  <polyline class="wave2" points="0,60 20,65.23511514873843 40,69.8939168491158 60,73.46353575692635 80,75.551006421813 100,75.92652732402824 120,74.54875882921091 140,71.56937410781319 160,67.316362026173 180,62.25792012895788 200,56.950912593992236 220,51.97956722258648 240,47.891160075073145 260,45.13576797966781 280,44.01672132643315 300,44.65721160538978 320,46.98672973491872 340,50.748828132091056 360,55.529352028817186 380,60.80203215811476 400,65.98641968913952 420,70.51178557950062 440,73.8799499139009 460,75.72012459178197 480,75.8297319459741 500,74.19670572951512 520,71.00081944180899 540,66.5938957638681 560,61.461075768875986 580,56.167411629914945 600,51.29566222577009 620,47.382139484428414 640,44.85766789059027 660,44.00015669518874 680,44.90400596775224 700,47.46971446021456 720,51.41483331199304 740,56.30505974558131 760,61.602047768745166 780,66.72267258922625 800,71.1032245532329 820,74.26146574691329 840,75.84971769111793 860,75.69313591178565 880,73.8089578874883" fill="none" stroke="#d3dae6" stroke-width="1" stroke-opacity=".18" transform="translate(0 10)"/>
+  <rect x="290" y="38" width="300" height="44" rx="22" fill="#07080b" stroke="rgba(211,218,230,0.22)"/>
+  <text class="sans" x="440" y="66" text-anchor="middle" font-size="15" fill="#d3dae6">Let's build something dependable<tspan fill="#c6ff34">.</tspan></text>
+</g>
+<rect x=".5" y=".5" width="879" height="119" rx="21.5" fill="none" stroke="rgba(211,218,230,0.22)"/>
+</svg>

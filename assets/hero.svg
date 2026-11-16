@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="320" viewBox="0 0 880 320" role="img" aria-label="Emad Nazzal, software engineer at Bounce Insights, Dublin">
+<style>
+  .sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif} .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace}
+  .rise{opacity:0;transform:translateY(10px);animation:rise .9s cubic-bezier(0.23,1,0.32,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+
+  .spin0{animation:spin 28s linear infinite}
+  .spin1{animation:spin 18s linear infinite reverse}
+  .spin2{animation:spin 11s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .core{animation:beat 2.4s ease-in-out infinite}
+  @keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.6)}}
+  .scan{animation:scan 7s cubic-bezier(0.23,1,0.32,1) infinite}
+  @keyframes scan{0%{transform:translateX(0)}60%,100%{transform:translateX(1260px)}}</style>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="rgba(211,218,230,0.12)" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#c6ff34" stop-opacity=".10"/><stop offset="1" stop-color="#c6ff34" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#07080b" stop-opacity="0"/><stop offset="1" stop-color="#07080b" stop-opacity=".9"/></linearGradient>
+  <clipPath id="round"><rect width="880" height="320" rx="22"/></clipPath>
+<linearGradient id="beam" x1="0" x2="1"><stop offset="0" stop-color="#c6ff34" stop-opacity="0"/><stop offset=".5" stop-color="#c6ff34" stop-opacity=".07"/><stop offset="1" stop-color="#c6ff34" stop-opacity="0"/></linearGradient></defs>
+<g clip-path="url(#round)">
+  <rect width="880" height="320" fill="#07080b"/>
+  <rect width="880" height="320" fill="url(#grid)" opacity=".55"/>
+  <rect width="880" height="320" fill="url(#glow)"/>
+  
+  <!-- scanning beam -->
+  <rect class="scan" x="-200" y="0" width="160" height="320" fill="url(#beam)"/>
+  
+    <g class="spin0" style="transform-origin:700px 160px">
+      <circle cx="700" cy="160" r="118" fill="none" stroke="rgba(211,218,230,0.22)" stroke-dasharray="40 14"/>
+      <circle cx="818" cy="160" r="4.5" fill="#c6ff34"/>
+    </g>
+    <g class="spin1" style="transform-origin:700px 160px">
+      <circle cx="700" cy="160" r="86" fill="none" stroke="rgba(211,218,230,0.22)" stroke-dasharray="2 7"/>
+      <circle cx="786" cy="160" r="3" fill="#d3dae6"/>
+    </g>
+    <g class="spin2" style="transform-origin:700px 160px">
+      <circle cx="700" cy="160" r="54" fill="none" stroke="rgba(211,218,230,0.22)" stroke-dasharray="40 14"/>
+      <circle cx="754" cy="160" r="3" fill="#d3dae6"/>
+    </g>
+  <circle cx="700" cy="160" r="16" fill="#12151c" stroke="#c6ff34" stroke-width="1.5"/>
+  <circle class="core" cx="700" cy="160" r="5" fill="#c6ff34" style="transform-origin:700px 160px"/>
+  <text class="mono" x="700" y="310" text-anchor="middle" font-size="10" letter-spacing="2" fill="rgba(211,218,230,0.36)">SOFTWARE · AI · CLOUD</text>
+
+  <g class="rise" style="animation-delay:.1s">
+    <circle class="pulse" cx="52" cy="78" r="4" fill="#c6ff34"/>
+    <text class="mono" x="66" y="82" font-size="12" letter-spacing="2.2" fill="rgba(211,218,230,0.62)">SOFTWARE ENGINEER @ BOUNCE INSIGHTS · DUBLIN</text>
+  </g>
+  <g class="rise" style="animation-delay:.25s">
+    <text class="sans" x="46" y="160" font-size="66" font-weight="700" letter-spacing="-2.5" fill="#d3dae6">Emad Nazzal<tspan fill="#c6ff34">.</tspan></text>
+  </g>
+  <g class="rise" style="animation-delay:.45s">
+    <text class="sans" x="48" y="205" font-size="19" fill="rgba(211,218,230,0.62)">I ship production software and build AI into it:</text>
+    <text class="sans" x="48" y="231" font-size="19" fill="rgba(211,218,230,0.62)">RAG, agents and solid architecture on AWS.</text>
+  </g>
+  <g class="rise" style="animation-delay:.65s">
+    <rect x="48" y="258" width="44.2" height="26" rx="13" fill="#0c0e13" stroke="#c6ff34"/>
+      <text class="mono" x="70.1" y="275" text-anchor="middle" font-size="11.5" fill="#c6ff34">RAG</text><rect x="104.2" y="258" width="110.80000000000001" height="26" rx="13" fill="#0c0e13" stroke="rgba(211,218,230,0.22)"/>
+      <text class="mono" x="159.60000000000002" y="275" text-anchor="middle" font-size="11.5" fill="#d3dae6">Agents · ADK</text><rect x="227" y="258" width="44.2" height="26" rx="13" fill="#0c0e13" stroke="rgba(211,218,230,0.22)"/>
+      <text class="mono" x="249.1" y="275" text-anchor="middle" font-size="11.5" fill="#d3dae6">AWS</text><rect x="283.2" y="258" width="110.80000000000001" height="26" rx="13" fill="#0c0e13" stroke="rgba(211,218,230,0.22)"/>
+      <text class="mono" x="338.6" y="275" text-anchor="middle" font-size="11.5" fill="#d3dae6">Architecture</text>
+  </g>
+</g>
+<rect x=".5" y=".5" width="879" height="319" rx="21.5" fill="none" stroke="rgba(211,218,230,0.22)"/>
+</svg>

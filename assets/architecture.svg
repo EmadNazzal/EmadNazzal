@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250" role="img" aria-label="Diagram: sources, retrieval, agent, tools, product">
+<style>
+  .sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif} .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace}
+  .rise{opacity:0;transform:translateY(10px);animation:rise .9s cubic-bezier(0.23,1,0.32,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+.flow{animation:flow 1.6s linear infinite}@keyframes flow{to{stroke-dashoffset:-30}}</style>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="rgba(211,218,230,0.12)" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#c6ff34" stop-opacity=".10"/><stop offset="1" stop-color="#c6ff34" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#07080b" stop-opacity="0"/><stop offset="1" stop-color="#07080b" stop-opacity=".9"/></linearGradient>
+  <clipPath id="round"><rect width="880" height="250" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="880" height="250" fill="#07080b"/>
+  <rect width="880" height="250" fill="url(#grid)" opacity=".55"/>
+  <rect width="880" height="250" fill="url(#glow)"/>
+  
+  <text class="mono rise" x="30" y="44" font-size="11" letter-spacing="2.2" fill="#c6ff34">FIG. 01</text>
+  <text class="sans rise" x="94" y="45" font-size="15" fill="#d3dae6">Retrieval feeding an agent loop, the kind of AI feature I build into products.</text>
+  <line x1="170" y1="132" x2="200" y2="132" stroke="rgba(211,218,230,0.22)"/>
+    <line class="flow" x1="170" y1="132" x2="200" y2="132" stroke="#c6ff34" stroke-width="2" stroke-dasharray="6 24" style="animation-delay:0s"/><line x1="340" y1="132" x2="370" y2="132" stroke="rgba(211,218,230,0.22)"/>
+    <line class="flow" x1="340" y1="132" x2="370" y2="132" stroke="#c6ff34" stroke-width="2" stroke-dasharray="6 24" style="animation-delay:0.3s"/><line x1="510" y1="132" x2="540" y2="132" stroke="rgba(211,218,230,0.22)"/>
+    <line class="flow" x1="510" y1="132" x2="540" y2="132" stroke="#c6ff34" stroke-width="2" stroke-dasharray="6 24" style="animation-delay:0.6s"/><line x1="680" y1="132" x2="710" y2="132" stroke="rgba(211,218,230,0.22)"/>
+    <line class="flow" x1="680" y1="132" x2="710" y2="132" stroke="#c6ff34" stroke-width="2" stroke-dasharray="6 24" style="animation-delay:0.8999999999999999s"/><path d="M 610 164 C 610 212, 440 212, 440 164" fill="none" stroke="rgba(211,218,230,0.22)"/>
+  <path class="flow" d="M 610 164 C 610 212, 440 212, 440 164" fill="none" stroke="#c6ff34" stroke-width="2" stroke-dasharray="6 24"/>
+  <text class="mono" x="525" y="220" text-anchor="middle" font-size="10" letter-spacing="1.5" fill="rgba(211,218,230,0.36)">TOOL-CALL LOOP</text>
+  <g class="rise" style="animation-delay:0.1s">
+    <rect x="30" y="100" width="140" height="64" rx="14" fill="#0c0e13" stroke="rgba(211,218,230,0.22)"/>
+    <text class="sans" x="46" y="128" font-size="16" font-weight="600" fill="#d3dae6">Sources</text>
+    <text class="mono" x="46" y="148" font-size="10.5" fill="rgba(211,218,230,0.36)">docs · data</text>
+  </g>
+  <g class="rise" style="animation-delay:0.22s">
+    <rect x="200" y="100" width="140" height="64" rx="14" fill="#0c0e13" stroke="rgba(211,218,230,0.22)"/>
+    <text class="sans" x="216" y="128" font-size="16" font-weight="600" fill="#d3dae6">Retrieval</text>
+    <text class="mono" x="216" y="148" font-size="10.5" fill="rgba(211,218,230,0.36)">embed · rank</text>
+  </g>
+  <g class="rise" style="animation-delay:0.33999999999999997s">
+    <rect x="370" y="100" width="140" height="64" rx="14" fill="rgba(198,255,52,0.06)" stroke="#c6ff34"/>
+    <text class="sans" x="386" y="128" font-size="16" font-weight="600" fill="#c6ff34">Agent</text>
+    <text class="mono" x="386" y="148" font-size="10.5" fill="rgba(211,218,230,0.36)">ADK · plans</text>
+  </g>
+  <g class="rise" style="animation-delay:0.45999999999999996s">
+    <rect x="540" y="100" width="140" height="64" rx="14" fill="#0c0e13" stroke="rgba(211,218,230,0.22)"/>
+    <text class="sans" x="556" y="128" font-size="16" font-weight="600" fill="#d3dae6">Tools</text>
+    <text class="mono" x="556" y="148" font-size="10.5" fill="rgba(211,218,230,0.36)">APIs · DB</text>
+  </g>
+  <g class="rise" style="animation-delay:0.58s">
+    <rect x="710" y="100" width="140" height="64" rx="14" fill="#0c0e13" stroke="rgba(211,218,230,0.22)"/>
+    <text class="sans" x="726" y="128" font-size="16" font-weight="600" fill="#d3dae6">Product</text>
+    <text class="mono" x="726" y="148" font-size="10.5" fill="rgba(211,218,230,0.36)">AWS · observed</text>
+  </g>
+</g>
+<rect x=".5" y=".5" width="879" height="249" rx="21.5" fill="none" stroke="rgba(211,218,230,0.22)"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="430" height="230" viewBox="0 0 430 230" role="img" aria-label="Aurify: A growth platform for local businesses: marketing site, client onboarding, staff dashboard, and a kit that ships a custom website per client.">
+<style>
+  .sans{font-family:'Segoe UI Variable Display','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Inter,Arial,sans-serif} .mono{font-family:ui-monospace,'SF Mono','Cascadia Code',Consolas,'Liberation Mono',monospace}
+  .rise{opacity:0;transform:translateY(10px);animation:rise .9s cubic-bezier(0.23,1,0.32,1) forwards}
+  @keyframes rise{to{opacity:1;transform:none}}
+  .pulse{animation:pulse 2.4s ease-in-out infinite}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;opacity:1!important;transform:none!important}}
+</style>
+<defs>
+  <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="rgba(211,218,230,0.12)" stroke-width="1"/></pattern>
+  <radialGradient id="glow" cx="80%" cy="20%" r="70%"><stop offset="0" stop-color="#c6ff34" stop-opacity=".10"/><stop offset="1" stop-color="#c6ff34" stop-opacity="0"/></radialGradient>
+  <linearGradient id="fade" x1="0" x2="0" y1="0" y2="1"><stop offset="0" stop-color="#07080b" stop-opacity="0"/><stop offset="1" stop-color="#07080b" stop-opacity=".9"/></linearGradient>
+  <clipPath id="round"><rect width="430" height="230" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#round)">
+  <rect width="430" height="230" fill="#07080b"/>
+  <rect width="430" height="230" fill="url(#grid)" opacity=".55"/>
+  <rect width="430" height="230" fill="url(#glow)"/>
+  
+    <g class="rise">
+      <text class="mono" x="26" y="40" font-size="11" letter-spacing="2" fill="rgba(211,218,230,0.36)">001 · 2026</text>
+      <rect x="350" y="24" width="54" height="24" rx="12" fill="rgba(198,255,52,0.08)" stroke="#c6ff34"/>
+      <circle class="pulse" cx="363" cy="36" r="3" fill="#c6ff34"/>
+      <text class="mono" x="382" y="40" text-anchor="middle" font-size="11" fill="#c6ff34">Live</text>
+    </g>
+    <g class="rise" style="animation-delay:.12s">
+      <text class="sans" x="24" y="88" font-size="28" font-weight="700" letter-spacing="-.8" fill="#d3dae6">Aurify<tspan fill="#c6ff34"> ↗</tspan></text>
+    </g>
+    <g class="rise" style="animation-delay:.24s"><text class="sans" x="26" y="118" font-size="13.5" fill="rgba(211,218,230,0.62)">A growth platform for local businesses: marketing</text><text class="sans" x="26" y="138" font-size="13.5" fill="rgba(211,218,230,0.62)">site, client onboarding, staff dashboard, and a kit</text><text class="sans" x="26" y="158" font-size="13.5" fill="rgba(211,218,230,0.62)">that ships a custom website per client.</text></g>
+    <line x1="26" y1="184" x2="404" y2="184" stroke="rgba(211,218,230,0.12)"/>
+    <text class="mono rise" style="animation-delay:.36s" x="26" y="208" font-size="11" fill="rgba(211,218,230,0.36)">Next.js · TypeScript · Supabase · Astro · Workers</text>
+</g>
+<rect x=".5" y=".5" width="429" height="229" rx="21.5" fill="none" stroke="rgba(211,218,230,0.22)"/>
+</svg>
