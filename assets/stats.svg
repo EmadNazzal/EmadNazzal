@@ -26,7 +26,7 @@
   </g>
   <g class="rise" style="animation-delay:.2s">
     <rect x="34" y="166" width="192" height="26" rx="13" fill="rgba(198,255,52,0.08)" stroke="#c6ff34"/>
-    <text class="mono" x="50" y="183.5" font-size="12" fill="#c6ff34">↑ 6.5× the year before</text>
+    <text class="mono" x="50" y="183.5" font-size="12" fill="#c6ff34">↑ 6.4× the year before</text>
   </g>
   <g class="rise" style="animation-delay:0.3s">
     <text class="sans" x="34" y="232" font-size="22" font-weight="600" fill="#d3dae6">222</text>
@@ -49,7 +49,7 @@
     <text class="mono" x="766.9166666666666" y="220" text-anchor="middle" font-size="10" fill="rgba(211,218,230,0.36)">S</text><rect class="bar" style="animation-delay:0.8999999999999999s;transform-origin:788.3333333333333px 200px" x="788.3333333333333" y="100" width="26.833333333333332" height="100" rx="5" fill="#d3dae6" fill-opacity="0.5133333333333333"/>
     <text class="mono" x="801.7499999999999" y="220" text-anchor="middle" font-size="10" fill="rgba(211,218,230,0.36)">O</text><rect class="bar" style="animation-delay:0.96s;transform-origin:823.1666666666666px 200px" x="823.1666666666666" y="50" width="26.833333333333332" height="150" rx="5" fill="#c6ff34" fill-opacity="1"/>
     <text class="mono" x="836.5833333333333" y="220" text-anchor="middle" font-size="10" fill="#c6ff34">N</text>
-  <text class="mono" x="850" y="248" text-anchor="end" font-size="9.5" fill="rgba(211,218,230,0.36)">updated 2026-11-26</text>
+  <text class="mono" x="850" y="248" text-anchor="end" font-size="9.5" fill="rgba(211,218,230,0.36)">updated 2026-11-27</text>
 </g>
 <rect x=".5" y=".5" width="879" height="269" rx="21.5" fill="none" stroke="rgba(211,218,230,0.22)"/>
 </svg>
